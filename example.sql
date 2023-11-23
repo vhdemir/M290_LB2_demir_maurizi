@@ -2,7 +2,6 @@ show databases;
 
 create database m290_LB2;
 
-# irgend etwas
 use m290_LB2;
 
 CREATE TABLE IF NOT EXISTS countries (
@@ -29,4 +28,4 @@ CREATE TABLE IF NOT EXISTS addresses (
                                          FOREIGN KEY (countryID) REFERENCES countries(countryID)
 );
 
-Select * from addresses;
+
